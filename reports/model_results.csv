@@ -1,0 +1,4 @@
+model,accuracy,roc_auc
+Always guess the majority class,0.57,0.5
+Shipping mode only,0.696,0.743
+All order-time features,0.724,0.775

@@ -1,0 +1,12 @@
+feature,importance
+shipping_mode,0.2717
+order_hour,0.0443
+order_month,0.0012
+order_region,0.0009
+customer_segment,0.0007
+order_dow,0.0006
+unit_price,0.0003
+market,-0.0001
+department_name,-0.0004
+discount_rate,-0.0006
+quantity,-0.0007

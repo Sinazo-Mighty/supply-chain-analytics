@@ -1,0 +1,5 @@
+discount_band,order_lines,avg_profit_ratio,pct_loss_making
+0%,10028,0.127,18.4
+1-9%,80230,0.122,18.6
+10-19%,70203,0.118,18.8
+20%+,20058,0.12,19.0

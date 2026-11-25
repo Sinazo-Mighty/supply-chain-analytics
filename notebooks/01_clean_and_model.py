@@ -14,7 +14,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 df = pd.read_csv(RAW, encoding="latin-1")
 print(f"Raw: {df.shape[0]:,} rows x {df.shape[1]} columns")
 
-# ---- 1. Cleaning decisions (document these in your README) ----------------
+# ---- 1. Cleaning decisions ----------------
 # PII: not needed for analysis, and it shouldn't sit in a portfolio repo.
 # Empty/useless: Product Description is 100% null, Order Zipcode ~86% null,
 #   Product Image is just a URL.

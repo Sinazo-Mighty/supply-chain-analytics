@@ -18,7 +18,7 @@ for table in ["dim_customer", "dim_product", "dim_location", "dim_date", "fact_o
     con.execute(f"CREATE VIEW {table} AS SELECT * FROM read_csv_auto('{PROCESSED / table}.csv')")
 
 sql_text = Path("sql/02_analysis.sql").read_text(encoding="utf-8")
-# Split the file into queries at each "-- name: <query_name>" marker.
+
 parts = re.split(r"^-- name:\s*(\w+)\s*$", sql_text, flags=re.MULTILINE)
 
 for name, query in zip(parts[1::2], parts[2::2]):

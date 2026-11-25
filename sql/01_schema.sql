@@ -59,8 +59,8 @@ CREATE TABLE fact_order_item (
     unit_price           NUMERIC(10,2),
     discount_amount      NUMERIC(10,2),
     discount_rate        NUMERIC(6,4),
-    sales                NUMERIC(12,2),  -- unit_price * quantity, before discount
-    item_total           NUMERIC(12,2),  -- sales - discount_amount
+    sales                NUMERIC(12,2),  
+    item_total           NUMERIC(12,2),  
     profit               NUMERIC(12,2),
     profit_ratio         NUMERIC(8,4)
 );
